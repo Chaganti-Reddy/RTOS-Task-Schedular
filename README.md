@@ -17,17 +17,17 @@ This is a **cooperative, RTOS-style task scheduler** written in pure C — no OS
 
 ---
 
-## 🧱 Features Implemented
+## Features Implemented
 
 | Feature                  | Description                                               |
 |--------------------------|-----------------------------------------------------------|
-| 🌀 Context Switching      | Uses `setjmp/longjmp` to switch between task functions    |
-| 🔁 Round-Robin Scheduling | Selects tasks in a loop (if equal priority)              |
-| 🎚️ Priority-Based Exec    | Higher priority tasks run first                           |
-| ⏱️ Delays (`sleep`)       | Simulates task blocking for `n` ticks                     |
-| 🧼 Yielding               | Tasks manually yield control                              |
-| 🧵 Event Wait/Signal      | Tasks can wait for and signal specific events             |
-| 📊 Yield Stats           | Track how often each task yields                          |
+| Context Switching      | Uses `setjmp/longjmp` to switch between task functions    |
+| Round-Robin Scheduling | Selects tasks in a loop (if equal priority)              |
+| Priority-Based Exec    | Higher priority tasks run first                           |
+| Delays (`sleep`)       | Simulates task blocking for `n` ticks                     |
+| Yielding               | Tasks manually yield control                              |
+| Event Wait/Signal      | Tasks can wait for and signal specific events             |
+| Yield Stats           | Track how often each task yields                          |
 
 ---
 
