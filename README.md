@@ -1,4 +1,4 @@
-# RTOS-like Task Scheduler in C (setjmp/longjmp)
+# RTOS-like Task Scheduler in C
 
 ## Project Overview
 
