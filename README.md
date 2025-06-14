@@ -1,6 +1,6 @@
 # RTOS-like Task Scheduler in C
 
-## Project Overview
+## Project Overview 
 
 This is a **cooperative, RTOS-style task scheduler** written in pure C — no OS, no external libraries, no hardware dependencies.  It simulates key features of a real embedded OS: context switching, priority-based scheduling, delays, and event-driven task synchronization.
 
